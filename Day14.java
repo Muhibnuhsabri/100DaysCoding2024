@@ -1,6 +1,6 @@
-package latihan;
+package Day14;
 
-public class Latihan {
+public class Day14 {
 
     public static void main(String[] args) {
 //        type data long memiliki kapasitas yag paling besar yaitu 64bit(8byte)

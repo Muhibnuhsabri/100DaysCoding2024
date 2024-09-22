@@ -4,16 +4,10 @@ public class Day21 {
 
     public static void main(String[] args) {
 
-        /*
-        variabel data short(type daya ini digunakan untuk menyimpan nilai bilangan bulat 
-        yang lebih besar dari pada type data byte.)
-        */
+        short ContohUAS= 80;
+        short UjianAkhirSemester = 70;
 
-        short nilai1 = 2340;
-        short nilai2 = 3450;
-        short nilai3 = 450;
-
-        System.out.println("Hasil = " + nilai1*nilai2/nilai3);
+        System.out.println("Apakah ibnuh lulus? = " + UjianAkhirSemester);
 
     }
 

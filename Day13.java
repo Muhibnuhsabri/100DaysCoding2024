@@ -1,14 +1,14 @@
-package Evaluasi;
+package 100dayscoding;
 
-public class Evaluasi {
+public class evaluasiMentor {
 
     public static void main(String[] args) {
         byte a = 11;
         byte b = 12;
-        byte c = 14;
-        byte d = 15;
-        byte e = 16;
-        byte f = 17;
+        short c = 14;
+        short d = 15;
+        int e = 16;
+        int f = 17;
         
         System.out.println("angka 1: " + a);
         System.out.println("angka 2: " + b);

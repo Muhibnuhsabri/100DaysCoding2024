@@ -7,7 +7,7 @@ public class evaluasiBesar {
         //soal nomor 1
         
         System.out.println("selamat datang di perpustakan film favorit!");
-        final int jumlahFilm = 50;
+        final int jumlahFilm = 50; //ini adalah constanta 
         String namaFilm = "boboyboy";
         short tahunRilis = 2015;
         namaFilm = "from";

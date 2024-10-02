@@ -8,14 +8,14 @@ public class Day_31 {
         String sapiDouble = "123.45";
         String gorillaBoolean = "true";
         
-        int intVal = Integer.parseInt(ayamInt);
-        System.out.println("String ke int adalah "+ intVal);
+        int intNilai = Integer.parseInt(ayamInt);
+        System.out.println("String ke int nilai "+ intNilai);
         
-        double doubleVal = Double.parseDouble(sapiDouble);
-        System.out.println("String ke double "+ doubleVal);
+        double doubleNilai = Double.parseDouble(sapiDouble);
+        System.out.println("String ke double nilai"+ doubleNilai);
         
-        boolean booleanVal = Boolean.parseBoolean(gorillaBoolean);
-        System.out.println("String ke Boolean " + booleanVal);
+        boolean booleanHasil = Boolean.parseBoolean(gorillaBoolean);
+        System.out.println("String ke Boolean nilai" + booleanHasil);
        
         
     }

@@ -4,22 +4,19 @@ public class Day_31 {
     
     public static void main(String[] args) {
         
-        String strInt = "123";
-        String strDouble = "123.45";
-        String strBoolean = "true";
-        String strChar = "IKAN";
+        String ayamInt = "123";
+        String sapiDouble = "123.45";
+        String gorillaBoolean = "true";
         
-        int intVal = Integer.parseInt(strInt);
-        System.out.println("String ke int "+ intVal);
+        int intVal = Integer.parseInt(ayamInt);
+        System.out.println("String ke int adalah "+ intVal);
         
-        double doubleVal = Double.parseDouble(strDouble);
+        double doubleVal = Double.parseDouble(sapiDouble);
         System.out.println("String ke double "+ doubleVal);
         
-        boolean booleanVal = Boolean.parseBoolean(strBoolean);
+        boolean booleanVal = Boolean.parseBoolean(gorillaBoolean);
         System.out.println("String ke Boolean " + booleanVal);
-        
-        char charVal = strChar.charAt(0);
-        System.out.println("String ke Char " + charVal);
+       
         
     }
     

@@ -13,7 +13,7 @@ public class Day_40 {
         int nilaiB = banding.nextInt();
         
         System.out.println("apakah rill nilai A lebih besar di bandingkan nilai B? = "+(nilaiA > nilaiB));
-        System.out.println("apakah rill nilai A lebih kecil di bandingkan nilai B? = "+(nilaiA > nilaiB));
+        System.out.println("apakah rill nilai A lebih kecil di bandingkan nilai B? = "+(nilaiA < nilaiB));
         
     }
     

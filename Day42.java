@@ -1,6 +1,6 @@
 package coding100day;
 import java.util.Scanner;
-public class Day_41 {
+public class Day_42 {
     
     public static void main(String[] args) {
         

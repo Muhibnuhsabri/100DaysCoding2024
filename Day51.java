@@ -5,22 +5,20 @@ public class Day_51 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("baju anda biasa warna apa");
-        String baju = sc.nextLine();
+        System.out.println("silahkan dengar nama kalian di absen");
+        String absen = sc.nextLine();
         
-        switch (baju) {
-            case "hitam":
-                System.out.println("baju yang saya pakai kalau kuliah warna hitam ");
+        switch (absen) {
+            case "upin":
+                System.out.println("hadir pak ");
                 break;
-            case "abu abu":
-                System.out.println("baju yang saya pakai kalau kuliah warna abu abu ");
+            case "ipin":
+                System.out.println("hadir pak ");
                 break;
-            case "merah":
-                System.out.println("baju yang saya pakai kalau kuliah warna merah ");
+            default:
+                System.out.println(absen+" tidak hadir pak ");
                 break;
-            case "biru tua":
-                System.out.println("baju yang saya pakai kalau kuliah warna biru tua ");
-                break;
+            
         }
         
     }

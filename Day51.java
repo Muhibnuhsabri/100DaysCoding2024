@@ -5,30 +5,21 @@ public class Day_51 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("masukkan hari ini");
-        String hari = sc.nextLine();
+        System.out.println("baju anda biasa warna apa");
+        String baju = sc.nextLine();
         
-        switch (hari) {
-            case "senin":
-                System.out.println("hari ini adalah hari senin ");
+        switch (baju) {
+            case "hitam":
+                System.out.println("baju yang saya pakai kalau kuliah warna hitam ");
                 break;
-            case "selasa":
-                System.out.println("hari ini adalah hari selasa ");
+            case "abu abu":
+                System.out.println("baju yang saya pakai kalau kuliah warna abu abu ");
                 break;
-            case "rabu":
-                System.out.println("hari ini adalah hari rabu ");
+            case "merah":
+                System.out.println("baju yang saya pakai kalau kuliah warna merah ");
                 break;
-            case "kamis":
-                System.out.println("hari ini adalah hari kamis ");
-                break;
-            case "jumat":
-                System.out.println("hari ini adalah hari jumat ");
-                break;
-            case "sabtu":
-                System.out.println("hari ini adalah hari sabtu ");
-                break;
-            case "minggu":
-                System.out.println("hari ini adalah hari libur ");
+            case "biru tua":
+                System.out.println("baju yang saya pakai kalau kuliah warna biru tua ");
                 break;
         }
         

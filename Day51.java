@@ -5,18 +5,20 @@ public class Day_51 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("silahkan dengar nama kalian di absen");
-        String absen = sc.nextLine();
+        System.out.println("yang tidak jawab akan di hukum ");
+        System.out.println("siapa mau angkat tangan");
         
-        switch (absen) {
+        String nama = sc.nextLine();
+        
+        switch (nama) {
             case "upin":
-                System.out.println("hadir pak ");
+                System.out.println("saya pak ");
                 break;
             case "ipin":
-                System.out.println("hadir pak ");
+                System.out.println("saya pak ");
                 break;
             default:
-                System.out.println(absen+" tidak hadir pak ");
+                System.out.println("silahkan keluar bagi yang nda jawab");
                 break;
             
         }

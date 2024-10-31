@@ -4,12 +4,14 @@ public class Day_60 {
     
     public static void main(String[] args) {
         
-        int a = 1;
+        System.out.println("angka 5 hingga 10");
+        
+        int a = 5;
         
         do {
             System.out.println(a);
             a++;
-        } while (a <= 5);
+        } while (a <= 10);
         
     }
     

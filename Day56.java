@@ -22,7 +22,24 @@ public class Day_56 {
         
         //soal 2
         
+        int maximal = 0;
         
+        System.out.println("masukkan jumlah angka : ");
+        int batas = sc.nextInt();
+        
+        System.out.println("masukkan angka : ");
+        
+        for (int i = 1; i <= batas; i++) {
+            int angka = sc.nextInt();
+            
+            for (int j = 0; j <= angka; j++) {
+                if (j > maximal) {
+                    maximal = j;
+                }
+            }
+        }
+        
+        System.out.println("angka terbesar = "+maximal);
         
         //soal 3
         

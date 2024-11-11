@@ -2,13 +2,21 @@ package coding100day;
 
 public class Day_70 {
     
-    public static String kalimat(String kata1, String kata2) {
-        return kata1 + " " + kata2;
+    public static int bukudanpulpen(int buku, int pulpen) {
+        
+        return buku+pulpen;
+                    
     }
-
+    
     public static void main(String[] args) {
         
-        String hasil = Day_70.kalimat("Belajar", "Java");
-        System.out.println(hasil);
+        int buku = 5;
+        int pulpen = 2;
+        
+        int hasil = bukudanpulpen (buku,pulpen);
+        
+        System.out.println("buku dan pulpen saya ada = "+hasil);
+        
     }
+        
 }

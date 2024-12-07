@@ -9,7 +9,7 @@ public class Day_97 {
         System.out.print("Masukkan angka n: ");
         int n = sc.nextInt();
 
-        System.out.println("Bilangan prima dari 1 hingga " + n + " adalah:");
+        System.out.println("Bilangan prima 1 hingga " + n + " yakni");
         for (int i = 2; i <= n; i++) {
             boolean apakah = true;
             for (int j = 2; j <= i / 2; j++) {
